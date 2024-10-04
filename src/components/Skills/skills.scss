@@ -1,0 +1,48 @@
+.skill {
+    @media (max-width: 1080px) {
+        margin-bottom: 40px;
+    }
+    & h2 {
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    &__list {
+        width: 50%;
+        max-width: 1080px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        &__card {
+            background-color: black;
+            border-radius: 20px;
+            width: 90px;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            color: white;
+            text-align: center;
+            @media (max-width: 900px) {
+                width: 70px;
+                height: 70px;
+            }
+            & i {
+                font-size: 50px;
+                background-color: black;
+                @media (max-width: 900px) {
+                    font-size: 30px;
+                }
+            }
+            & p {
+                background-color: black;
+                @media (max-width: 900px) {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
