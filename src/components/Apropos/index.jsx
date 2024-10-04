@@ -6,7 +6,7 @@ function Apropos() {
     <div className="about module2">
       <h2 id="apropos">À propos de moi</h2>
       <div className="about__box">
-        <img src={photo} alt="ma photo" />
+        <img src={photo} alt="Mon Profil" />
         <div className="about__box__description">
           <p>
             Je suis un développeur Web FullStack débutant, passionné par la
