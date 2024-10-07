@@ -8,17 +8,25 @@ function Projets() {
       <h2 id="projets">Projets</h2>
       <div className="project__list">
         <div className="project__list__unique">
-          <img src={accessibility} alt="" />
+          <img src={accessibility} alt="écran du site" />
           <h3>Site de Nina Carducci</h3>
           <ul>
             <li>
               Je devais débugger et optimiser le site de la photographe Nina
               Carducci
             </li>
-            <li></li>
             <li>
-              Ce projet m'a permis de développer mes compétences en
-              accessibilité et en optimisation du référencement.
+              Mon principal problème fut les métrique donnés par Lightouse qui
+              étaient trop variables. J'ai dû m'adapter et supprimer mon cache
+              pour réussir.
+            </li>
+            <li>
+              J'ai mobilisé les compétences suivantes : <br />
+              - SEO <br />
+              - Référencement
+              <br />
+              - Javascript
+              <br />- HTML
             </li>
             <li>
               <a href="https://accessibiliy.netlify.app/">Lien du site</a>
@@ -29,7 +37,7 @@ function Projets() {
           </ul>
         </div>
         <div className="project__list__unique">
-          <img src={grimoire} alt="" />
+          <img src={grimoire} alt="écran du site" />
           <h3>Site Mon Vieux Grimoire</h3>
           <ul>
             <li>Je devais développer le back-end du site.</li>
@@ -39,8 +47,10 @@ function Projets() {
               fallait vider le cache du module pour réussir.
             </li>
             <li>
-              J'ai appris à utiliser Node.js, Express et MongoDB pour me servir
-              d'une base de donnée.
+              J'ai mobilisé les compétences suivantes : <br />
+              - Node.js <br />
+              - Express <br />
+              - MongoDB <br />- Javascript
             </li>
             <li>
               <a href="https://github.com/JinAlphaFox/bookstars">Lien GitHub</a>
