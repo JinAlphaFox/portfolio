@@ -7,7 +7,7 @@ function Formation() {
       <h2>Formations</h2>
       {bdd.map((formation) => (
         <div className="formation__card">
-          <h3>{formation.titre}</h3>
+          <h3 key={formation.titre}>{formation.titre}</h3>
           <ul>
             <li>
               Diplome de niveau {formation.niveau} (Bac {formation.niveauBac})
