@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
+import Footer from './components/Footer'
 import Temp from './components/Temp'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
@@ -25,7 +26,9 @@ ReactDOM.render(
           </Routes>
           <Temp />
         </main>
-        <footer></footer>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </Router>
   </React.StrictMode>,
