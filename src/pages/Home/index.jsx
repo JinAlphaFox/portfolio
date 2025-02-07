@@ -1,11 +1,7 @@
+import Navigation from '../../components/Navigation'
+
 function Homme() {
-  return (
-    <div className="App">
-      <header></header>
-      <main></main>
-      <footer></footer>
-    </div>
-  )
+  return <h1>Joshua Lavaud</h1>
 }
 
 export default Homme
