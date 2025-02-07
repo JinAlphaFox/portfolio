@@ -1,0 +1,24 @@
+[
+    {
+        "_id": 0,
+        "photo": "accessibilityProject.jpg",
+        "alt": "image du site de Nina Carducci",
+        "titre": "Site de Nina Carducci",
+        "objectif": "Débugger et optimiser le site de la photographe Nina Carducci",
+        "probleme": "Mon principal problème fut les métrique donnés par Lightouse qui étaient trop variables. J'ai dû m'adapter et supprimer mon cache pour réussir.",
+        "skills": ["SEO", "Référencement", "Javascript", "HTML"],
+        "site": "https://accessibiliy.netlify.app/",
+        "github": "https://github.com/JinAlphaFox/W3C"
+    },
+    {
+        "_id": 1,
+        "photo": "grimoireProject.jpg",
+        "alt": "image du site Mon Vieux Grimoire",
+        "titre": "Site \"Mon Vieux Grimoire \"",
+        "objectif": "Développer le back-end du site.",
+        "probleme": "Ma plus grosse problématique sur ce projet fût la compression des images. Les anciennes images ne voulaient pas se supprimer. Il fallait vider le cache du module pour réussir.",
+        "skills": ["Node.js", "Express", "MongoDB", "Javascript"],
+        "site": 0,
+        "github": "https://github.com/JinAlphaFox/bookstars"
+    }
+]

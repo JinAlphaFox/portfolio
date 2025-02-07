@@ -4,7 +4,7 @@ import './footer.scss'
 function Footer() {
   return (
     <div className="footer">
-      <h3>Contact</h3>
+      <h2>Contact</h2>
       <p className="footer__information">
         <span>
           <i class="fa-solid fa-phone"></i> 06 85 46 23 06

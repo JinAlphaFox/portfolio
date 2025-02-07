@@ -1,0 +1,24 @@
+[
+    {
+        "key": "devWeb",
+        "titre": "Développeur WEB et WEB Mobile",
+        "niveau": 5,
+        "niveauBac": "Bac +2",
+        "organisme": "OpenClassrooms",
+        "realiseAnnee": 2024,
+        "duree": "6 mois",
+        "desc": "Programmation de site Web côté front et back. J'ai réalisé 7 projets concrets durant cette periode.",
+        "distanceOuPresence": "Réalisé à distance."
+    },
+    {
+        "key": "bacTU",
+        "titre": "Baccalauréat Technicien d'Usinage",
+        "niveau": 4,
+        "niveauBac": "Bac Pro",
+        "organisme": "Lycée Réaumur Poitiers",
+        "realiseAnnee": 2009,
+        "duree": "2 ans",
+        "desc": "Programmation de machines outils. Modélisation 3D et usinage de pièces.",
+        "distanceOuPresence": "Réalisé en présentiel."
+    }
+]
