@@ -1,7 +1,28 @@
-import Navigation from '../../components/Header'
+import './App.scss'
+import Navigation from '../../components/Navigation'
+import Banniere from '../../components/Banniere'
+import Skills from '../../components/Skills'
+import Apropos from '../../components/Apropos'
+import Projets from '../../components/Projets'
+import Formation from '../../components/Formation'
 
-function Homme() {
-  return <h2>Joshua Lavaud</h2>
+function App() {
+  return (
+    <div className="App">
+      <header>
+        <Banniere />
+        <Navigation />
+      </header>
+      <main>
+        <Apropos />
+        <Skills />
+        <Formation />
+        <Projets />
+      </main>
+      <footer></footer>
+    </div>
+  )
 }
 
-export default Homme
+//<img src={logo} className="App-logo" alt="logo" />
+export default App
