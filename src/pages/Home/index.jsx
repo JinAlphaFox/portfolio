@@ -1,4 +1,4 @@
-import Navigation from '../../components/Navigation'
+import Navigation from '../../components/Header'
 
 function Homme() {
   return <h1>Joshua Lavaud</h1>
