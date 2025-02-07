@@ -1,8 +1,8 @@
 function Error() {
   return (
     <div>
-      <h1>Erreur 404</h1>
-      <h2>Page non trouvée</h2>
+      <h2>Erreur 404</h2>
+      <p>Page non trouvée</p>
     </div>
   )
 }

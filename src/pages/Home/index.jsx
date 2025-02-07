@@ -1,7 +1,7 @@
 import Navigation from '../../components/Header'
 
 function Homme() {
-  return <h1>Joshua Lavaud</h1>
+  return <h2>Joshua Lavaud</h2>
 }
 
 export default Homme
