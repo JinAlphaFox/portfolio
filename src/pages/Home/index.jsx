@@ -92,7 +92,7 @@ function Homme() {
               <i class="fa-solid fa-x"></i>
             </div>
             <div className="monCv__sections__secondaire__programmation__skills">
-              <h3>Programation</h3>
+              <h3>Programmation</h3>
               <div className="monCv__sections__secondaire__programmation__skills__icones">
                 <i class="fa-brands fa-html5"></i>
                 <i class="fa-brands fa-css"></i>
