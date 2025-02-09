@@ -1,42 +1,47 @@
 [
     {
-        "key": "devWebFullStack",
+        "key": "xp4",
         "titre": "Développeur WEB FullStack",
         "entreprise": "OpenClassrooms",
         "dateDebut": "04/2024",
         "dateFin": "10/2024",
-        "competences": ["Front-end", "HTML", "CSS", "Javascript", "Sass", "React.js", "Back-end", "Node", "Yarn", "Git", "MongoDB", "Méthode Agile", "Autonomie"]
+        "competences": ["Front-end", "HTML", "CSS", "Javascript", "Sass", "React.js", "Back-end", "Node", "Yarn", "Git", "MongoDB", "Méthode Agile", "Autonomie"],
+        "pertinenceCV": true
     },
     {
-        "key": "maroquinier",
+        "key": "xp3",
         "titre": "Maroquinier",
         "entreprise": "Arco Châtellerault",
         "dateDebut": "05/2022",
         "dateFin": "09/2023",
-        "competences": []
+        "competences": [],
+        "pertinenceCV": false
     },
     {
-        "key": "telephone",
+        "key": "xp2",
         "titre": "Chargé de clientèle",
         "entreprise": "Armatis Poitiers",
         "dateDebut": "03/2019",
         "dateFin": "05/2022",
-        "competences": []
+        "competences": [],
+        "pertinenceCV": false
     },
     {
-        "key": "aps",
+        "key": "xp1",
         "titre": "Agent de Prévention et de Sécurité",
         "entreprise": "Futuroscope",
         "dateDebut": "09/2017",
         "dateFin": "02/2017",
-        "competences": []
+        "competences": [],
+        "pertinenceCV": false
     },
     {
-        "key": "mcdo",
+        "key": "xp0",
         "titre": "Employé polyvalent",
         "entreprise": "McDonald's Châtellerault",
         "dateDebut": "12/2013",
         "dateFin": "02/2016",
-        "competences": []
+        "competences": [],
+        "pertinenceCV": false
     }
 ]

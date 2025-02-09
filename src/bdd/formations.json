@@ -1,6 +1,6 @@
 [
     {
-        "key": "devWeb",
+        "key": "ft1",
         "titre": "Développeur WEB et WEB Mobile",
         "niveau": 5,
         "niveauBac": "Bac +2",
@@ -8,10 +8,11 @@
         "realiseAnnee": 2024,
         "duree": "6 mois",
         "desc": "Programmation de site Web côté front et back. J'ai réalisé 7 projets concrets durant cette periode.",
-        "distanceOuPresence": "Réalisé à distance."
+        "distanceOuPresence": "Réalisé à distance.",
+        "pertinenceCV": true
     },
     {
-        "key": "bacTU",
+        "key": "ft0",
         "titre": "Baccalauréat Technicien d'Usinage",
         "niveau": 4,
         "niveauBac": "Bac Pro",
@@ -19,6 +20,7 @@
         "realiseAnnee": 2009,
         "duree": "2 ans",
         "desc": "Programmation de machines outils. Modélisation 3D et usinage de pièces.",
-        "distanceOuPresence": "Réalisé en présentiel."
+        "distanceOuPresence": "Réalisé en présentiel.",
+        "pertinenceCV": false
     }
 ]
