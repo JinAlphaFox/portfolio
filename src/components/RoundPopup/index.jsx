@@ -34,7 +34,7 @@ function RoundPopup({ titre, bdd }) {
               <label for={element.key}>
                 {element.titre}
                 <i
-                  class={`fa-solid ${checkedItems[element.key] ? 'fa-minus' : 'fa-plus'}`}
+                  class={`fa-solid ${checkedItems[element.key] ? 'fa-arrow-up' : 'fa-arrow-down'}`}
                 ></i>
               </label>
             </h4>

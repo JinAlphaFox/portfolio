@@ -2,7 +2,7 @@ import formations from '../../bdd/formations.json'
 import experiences from '../../bdd/experiences.json'
 import skillsProg from '../../bdd/skillsProg.json'
 import skillsOther from '../../bdd/skillsOther.json'
-import uploadBDD from '../../bdd/impress.json'
+import download from '../../bdd/download.json'
 import RoundPopup from '../../components/RoundPopup'
 import SquarePopup from '../../components/SquarePopup'
 import './home.scss'
@@ -34,8 +34,8 @@ function Homme() {
           <div className="page__monCv__gridZone__xpPro">
             <RoundPopup titre="Expériences Professionnelle" bdd={experiences} />
           </div>
-          <div className="page__monCv__gridZone__upload">
-            <SquarePopup bdd={uploadBDD} />
+          <div className="page__monCv__gridZone__download">
+            <SquarePopup bdd={download} />
           </div>
         </div>
       </div>
