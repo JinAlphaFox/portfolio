@@ -1,0 +1,53 @@
+.squarePopup{
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    & h3{
+        margin-bottom: 8px;
+        margin-top: 0;
+        text-align: center;
+    }
+    &__head{
+        background-color: #96b0c1;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 10px;
+        padding : 7px;
+        border-bottom: 2px solid black;
+    }
+    &__foot{
+        background-color: #96b0c1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        padding : 7px;
+        border-top: 2px solid black;
+    }
+    &__body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__prog{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 90%;
+            gap: 10px;
+            & i{
+                font-size: 50px;
+            }
+        }
+        &__other{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}

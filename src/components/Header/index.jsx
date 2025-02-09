@@ -10,8 +10,10 @@ function Header() {
         <Link to="/contact">Contact</Link>
       </div>
       <div className="header__fakeBar">
-        <i class="fa-solid fa-chevron-left"></i>
-        <i class="fa-solid fa-chevron-right"></i>
+        <div className="header__fakeBar__chevrons">
+          <i class="fa-solid fa-chevron-left"></i>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
         <div className="header__fakeBar__searchZone">
           <i class="fa-solid fa-magnifying-glass"></i>
           <h1>Développeur Web FullStack</h1>

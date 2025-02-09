@@ -1,6 +1,7 @@
 [
     {
         "key": "xp4",
+        "type": "XP",
         "titre": "Développeur WEB FullStack",
         "entreprise": "OpenClassrooms",
         "dateDebut": "04/2024",
@@ -10,38 +11,42 @@
     },
     {
         "key": "xp3",
+        "type": "XP",
         "titre": "Maroquinier",
         "entreprise": "Arco Châtellerault",
         "dateDebut": "05/2022",
         "dateFin": "09/2023",
-        "competences": [],
+        "competences": ["Piquage sur cuir de sacs à main de luxe"],
         "pertinenceCV": false
     },
     {
         "key": "xp2",
+        "type": "XP",
         "titre": "Chargé de clientèle",
         "entreprise": "Armatis Poitiers",
         "dateDebut": "03/2019",
         "dateFin": "05/2022",
-        "competences": [],
+        "competences": ["Écoute"],
         "pertinenceCV": false
     },
     {
         "key": "xp1",
+        "type": "XP",
         "titre": "Agent de Prévention et de Sécurité",
         "entreprise": "Futuroscope",
         "dateDebut": "09/2017",
         "dateFin": "02/2017",
-        "competences": [],
+        "competences": ["Acceuil et renseignements des visiteurs", "Surveillance du parc et de ses entrées"],
         "pertinenceCV": false
     },
     {
         "key": "xp0",
+        "type": "XP",
         "titre": "Employé polyvalent",
         "entreprise": "McDonald's Châtellerault",
         "dateDebut": "12/2013",
         "dateFin": "02/2016",
-        "competences": [],
+        "competences": ["Utilisation des caisses", "Employé de cuisine"],
         "pertinenceCV": false
     }
 ]

@@ -1,0 +1,18 @@
+[
+    {
+        "titre": "Langues",
+        "cssName": "other",
+        "skills": ["Anglais lu"]
+    },
+    {
+        "titre": "Centre d'intérêt",
+        "cssName": "other",
+        "skills": [
+            "Jeux de rôles (Meneur et Joueur)",
+            "Taekwondo",
+            "Volley-ball",
+            "Jeux vidéo (RPG principalement)",
+            "Jeux de société (Animateur et Joueur)"
+        ]
+    }
+]

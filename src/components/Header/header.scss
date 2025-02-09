@@ -22,8 +22,9 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 10px;
-        padding-left: 10px;
+        justify-content: center;
+        gap: 20px;
+        padding: 0 30px 0 30px;
         min-width: 1000px;
         background-color: #fff7f1;
         border-top: 3px solid black;
@@ -31,18 +32,30 @@
         & i {
             font-size: 35px;
         }
+        &__chevrons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
         &__searchZone {
             display: flex;
             flex-direction: row;
             align-items: center;
             gap: 20px;
             background-color: white;
-            padding: 0px 300px 0px 20px;
+            /*padding: 0px 300px 0px 20px;*/
+            padding-left: 20px;
+            width: 90%;
             margin: 10px 0 10px 0;
             border : 3px solid black;
             border-radius: 50px;
+            & i {
+                font-size: 25px;
+            }
             & h1 {
                 margin: 0;
+                padding-bottom: 4px;
             }
         }
     }
