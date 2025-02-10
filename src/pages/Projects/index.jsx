@@ -1,5 +1,5 @@
 function Projects() {
-  return <h2>Mes Projets</h2>
+  return <h2>Tous mes Projets</h2>
 }
 
 export default Projects

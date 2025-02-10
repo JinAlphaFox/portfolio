@@ -4,7 +4,7 @@ import { useState } from 'react'
 function RoundPopup({ titre, bdd }) {
   const [checkedItems, setCheckedItems] = useState(
     bdd.reduce((acc, element) => {
-      acc[element.key] = element.pertinenceCV || false // Initialisation
+      acc[element.key] = element.pertinenceCV || false
       return acc
     }, {}),
   )
@@ -12,7 +12,7 @@ function RoundPopup({ titre, bdd }) {
   const toggleCheck = (key) => {
     setCheckedItems((prev) => ({
       ...prev,
-      [key]: !prev[key], // Inversion de l'état
+      [key]: !prev[key],
     }))
   }
 

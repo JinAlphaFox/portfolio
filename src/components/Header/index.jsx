@@ -6,7 +6,7 @@ function Header() {
     <div className="header">
       <div className="header__navigate">
         <Link to="/">Mon CV</Link>
-        <Link to="/projects">Mes Projets</Link>
+        <Link to="/projects">Tous mes Projets</Link>
         <Link to="/contact">Contact</Link>
       </div>
       <div className="header__fakeBar">
