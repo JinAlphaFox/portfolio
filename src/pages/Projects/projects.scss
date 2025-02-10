@@ -1,0 +1,16 @@
+.projects{
+    margin-left: 40px;
+    & h2{
+        margin-left: 100px;
+    }
+    &__all {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        &__card{
+            width: 350px;
+            height: 350px;
+        }
+    }
+}

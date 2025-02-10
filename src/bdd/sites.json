@@ -14,7 +14,7 @@
         "_id": 1,
         "photo": "grimoireProject.jpg",
         "alt": "image du site Mon Vieux Grimoire",
-        "titre": "Site \"Mon Vieux Grimoire \"",
+        "titre": "Site \"Mon Vieux Grimoire\"",
         "objectif": "Développer le back-end du site.",
         "probleme": "Ma plus grosse problématique sur ce projet fût la compression des images. Les anciennes images ne voulaient pas se supprimer. Il fallait vider le cache du module pour réussir.",
         "skills": ["Node.js", "Express", "MongoDB", "Javascript"],

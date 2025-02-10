@@ -1,16 +1,15 @@
 import { Link } from 'react-router-dom'
 import sites from '../../bdd/sites.json'
-import './aside.scss'
+import './asideBox.scss'
 import { useState } from 'react'
 
-function Aside() {
+function AsideBox({ limit }) {
   const [checkedItems, setCheckedItems] = useState(
     sites.reduce((acc, site) => {
       acc[site._id] = false
       return acc
     }, {}),
   )
-
   const toggleCheck = (_id) => {
     setCheckedItems((prev) => ({
       ...prev,
@@ -20,7 +19,7 @@ function Aside() {
   return (
     <div className="aside">
       <h2>Projets Réalisés</h2>
-      {sites.map((site, index) => (
+      {sites.slice(0, limit).map((site, index) => (
         <div className="aside__project" _id={index}>
           <img src={`/img/${site.photo}`} alt={site.alt} />
           <h3>
@@ -72,4 +71,4 @@ function Aside() {
   )
 }
 
-export default Aside
+export default AsideBox

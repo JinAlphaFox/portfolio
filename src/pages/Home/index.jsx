@@ -5,7 +5,7 @@ import skillsOther from '../../bdd/skillsOther.json'
 import download from '../../bdd/download.json'
 import RoundPopup from '../../components/RoundPopup'
 import SquarePopup from '../../components/SquarePopup'
-import Aside from '../../components/Aside'
+import AsideBox from '../../components/AsideBox'
 import './home.scss'
 
 function Homme() {
@@ -41,7 +41,7 @@ function Homme() {
         </div>
       </div>
       <div className="page__aside">
-        <Aside />
+        <AsideBox limit={2} />
       </div>
     </div>
   )
