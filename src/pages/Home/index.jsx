@@ -5,6 +5,7 @@ import skillsOther from '../../bdd/skillsOther.json'
 import download from '../../bdd/download.json'
 import RoundPopup from '../../components/RoundPopup'
 import SquarePopup from '../../components/SquarePopup'
+import SquarePopupDownload from '../../components/SquarePopupDownload'
 import AsideBox from '../../components/AsideBox'
 import './home.scss'
 
@@ -36,7 +37,7 @@ function Homme() {
             <RoundPopup titre="Expériences Professionnelle" bdd={experiences} />
           </div>
           <div className="page__monCv__gridZone__download">
-            <SquarePopup bdd={download} />
+            <SquarePopupDownload />
           </div>
         </div>
       </div>
