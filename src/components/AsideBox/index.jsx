@@ -39,7 +39,6 @@ function AsideBox({ limit }) {
           <div className="aside__project__hidden">
             <ul>
               <li>Objectif : {site.objectif}</li>
-              <li>{site.probleme}</li>
               <li>
                 J'ai mobilisé les compétences suivantes : <br />
                 {site.skills.map((skill, index) => (

@@ -1,17 +1,6 @@
 [
     {
-        "_id": 0,
-        "photo": "accessibilityProject.jpg",
-        "alt": "image du site de Nina Carducci",
-        "titre": "Site de Nina Carducci",
-        "objectif": "Débugger et optimiser le site de la photographe Nina Carducci",
-        "probleme": "Mon principal problème fut les métrique donnés par Lightouse qui étaient trop variables. J'ai dû m'adapter et supprimer mon cache pour réussir.",
-        "skills": ["SEO", "Référencement", "Javascript", "HTML"],
-        "adresse": "https://accessibiliy.netlify.app/",
-        "github": "https://github.com/JinAlphaFox/W3C"
-    },
-    {
-        "_id": 1,
+        "_id": 6,
         "photo": "grimoireProject.jpg",
         "alt": "image du site Mon Vieux Grimoire",
         "titre": "Site \"Mon Vieux Grimoire\"",
@@ -20,5 +9,71 @@
         "skills": ["Node.js", "Express", "MongoDB", "Javascript"],
         "adresse": 0,
         "github": "https://github.com/JinAlphaFox/bookstars"
+    },
+    {
+        "_id": 5,
+        "photo": "kasaProject.jpg",
+        "alt": "image du site Mon Vieux Grimoire",
+        "titre": "Site immobilier \"Kasa\"",
+        "objectif": "Développer le front-end du site avec React et React Router.",
+        "probleme": "Ma plus grosse problématique sur ce projet fût la compression des images. Les anciennes images ne voulaient pas se supprimer. Il fallait vider le cache du module pour réussir.",
+        "skills": ["React.js", "React Router", "CSS", "Sass"],
+        "adresse": 0,
+        "github": "https://github.com/JinAlphaFox/kasa"
+    },
+    {
+        "_id": 4,
+        "photo": "accessibilityProject.jpg",
+        "alt": "image du site de Nina Carducci",
+        "titre": "Site de Nina Carducci",
+        "objectif": "Débugger et optimiser le site de la photographe Nina Carducci",
+        "probleme": "Mon principal problème fut les métrique donnés par Lightouse qui étaient trop variables. J'ai dû m'adapter et supprimer mon cache pour réussir.",
+        "skills": ["SEO", "Référencement", "Javascript", "HTML"],
+        "adresse": "https://ninacarducci-joshualavaud.netlify.app/",
+        "github": "https://github.com/JinAlphaFox/W3C"
+    },
+    {
+        "_id": 3,
+        "photo": "architecteProject.jpg",
+        "alt": "image du site de Sophie Bluel",
+        "titre": "Site de Sophie Bluel, Architecte",
+        "objectif": "Créer la page web dynamique du site en comuniquant avec un API.",
+        "probleme": "Ma plus grosse problématique sur ce projet fût la compression des images. Les anciennes images ne voulaient pas se supprimer. Il fallait vider le cache du module pour réussir.",
+        "skills": ["Javascript", "Node.js"],
+        "adresse": 0,
+        "github": "https://github.com/JinAlphaFox/architecte"
+    },
+    {
+        "_id": 2,
+        "photo": "bookiProject.jpg",
+        "alt": "image du site Booki",
+        "titre": "Site \"Booki\"",
+        "objectif": "Créer la page d'accueil d'une agence de voyage en HTML et CSS. L'interface dever être responsive sur mobile, tablette et desktop.",
+        "probleme": "",
+        "skills": ["HTML", "CSS", "Git", "Github"],
+        "adresse": "https://booki-joshualavaud.netlify.app/",
+        "github": "https://github.com/JinAlphaFox/Booki"
+    },
+    {
+        "_id": 1,
+        "photo": "journalKitsuneProject.jpg",
+        "alt": "image du site Journal d'un Kitsune",
+        "titre": "Site \"Journal d'un Kitsune\"",
+        "objectif": "Second projet personnel. Créer une bibliothèque dynamique pour les joueurs du JDR \"Les 5 anneaux\".",
+        "probleme": "",
+        "skills": ["HTML", "CSS", "JAVASCRIPT"],
+        "adresse": "https://journaldunkitsune.netlify.app/",
+        "github": "https://github.com/JinAlphaFox/L5A"
+    },
+    {
+        "_id": 0,
+        "photo": "kanaDoProject.jpg",
+        "alt": "image du site KanaDo",
+        "titre": "Site \"KanaDo\"",
+        "objectif": "Premier projet personnel. Créer un site pour réviser les caractères Japonais. Trouver un hébergeur gratuit.",
+        "probleme": "",
+        "skills": ["HTML", "CSS", "JAVASCRIPT"],
+        "adresse": "https://tytkanado.netlify.app/",
+        "github": "https://github.com/JinAlphaFox/KanaDo"
     }
 ]
