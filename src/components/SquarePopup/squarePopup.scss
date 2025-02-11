@@ -19,6 +19,9 @@
         gap: 10px;
         padding : 7px;
         border-bottom: 2px solid black;
+        & i:before{
+            color: rgba(0,0,0,0.5);
+        }
     }
     &__foot{
         background-color: #96b0c1;
@@ -28,6 +31,9 @@
         gap: 10px;
         padding : 7px;
         border-top: 2px solid black;
+        & i:before{
+            color: rgba(0,0,0,0.5);
+        }
     }
     &__body{
         display: flex;
