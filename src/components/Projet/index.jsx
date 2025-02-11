@@ -33,8 +33,6 @@ function Projet({ bdd }) {
           <p>
             Objectif : {bdd.objectif}
             <br />
-            {bdd.probleme}
-            <br />
             J'ai mobilisé les compétences suivantes sur ce projet :
             <ul>
               {bdd.skills.map((skill, index) => (
