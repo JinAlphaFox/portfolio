@@ -1,6 +1,10 @@
 .footer{
     box-shadow: 0 -5px 0 0 silver;
+    & h2{
+        text-indent: 120px;
+    }
     &__information{
+        margin-left: 60px;
         display: flex;
         flex-direction: row;
         align-items: center;

@@ -26,6 +26,7 @@ function Contact() {
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          title="locationJoshuaLavaud"
         ></iframe>
       </div>
     </div>

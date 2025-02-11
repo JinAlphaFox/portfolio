@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Temp from './components/Temp'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
@@ -24,7 +23,6 @@ ReactDOM.render(
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Error />} />
           </Routes>
-          <Temp />
         </main>
         <footer>
           <Footer />
