@@ -1,6 +1,8 @@
 .footer{
     box-shadow: 0 -5px 0 0 silver;
     & h2{
+        margin-top: 5px;
+        padding-top: 10px;
         text-indent: 120px;
     }
     &__information{
@@ -9,15 +11,31 @@
         flex-direction: row;
         align-items: center;
         gap: 20px;
+        @media print {
+            margin-left: 0;
+            justify-content: space-around;
+        }
         & span{
             font-weight: bold;
+            @media print {
+                font-size: 24px;
+            }
         }
         & a{
             color: black;
             text-decoration: none;
+            @media print {
+                display: none;
+            }
         }
         & a:visited{
             color: black;
+        }
+        &__hidden{
+            display: none;
+            @media print {
+                display: inline;
+            }
         }
     }
 }

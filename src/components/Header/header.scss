@@ -3,6 +3,16 @@
         margin-left: 20px;
         display: flex;
         flex-direction: row;
+        &__projects{
+            @media print {
+                display: none;
+            }
+        }
+        &__contact{
+            @media print {
+                display: none;
+            }
+        }
         & a{
             display: flex;
             justify-content: center;
@@ -13,6 +23,7 @@
             background-size: cover;
             color: black;
             text-decoration: none;
+            
         }
         & a:visited{
             color: black;

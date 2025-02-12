@@ -5,9 +5,15 @@ function Header() {
   return (
     <div className="header">
       <div className="header__navigate">
-        <Link to="/">Mon CV</Link>
-        <Link to="/projects">Tous mes Projets</Link>
-        <Link to="/contact">Contact</Link>
+        <span className="header__navigate__cv">
+          <Link to="/">Mon CV</Link>
+        </span>
+        <span className="header__navigate__projects">
+          <Link to="/projects">Tous mes Projets</Link>
+        </span>
+        <span className="header__navigate__contact">
+          <Link to="/contact">Contact</Link>
+        </span>
       </div>
       <div className="header__fakeBar">
         <div className="header__fakeBar__chevrons">

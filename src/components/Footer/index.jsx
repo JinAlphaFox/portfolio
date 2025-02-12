@@ -9,9 +9,11 @@ function Footer() {
         <span>
           <i class="fa-solid fa-phone"></i> 06 85 46 23 06
         </span>
-
         <span>
           <i class="fa-solid fa-envelope"></i> j.lavaud501@gmail.com
+        </span>
+        <span className="footer__information__hidden">
+          <i class="fa-solid fa-globe"></i> https://joshualavaud.netlify.app/
         </span>
         <Link to="/contact">
           La suite en cliquant ici <i class="fa-solid fa-arrow-left"></i>

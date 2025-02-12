@@ -8,6 +8,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 25px;
+    box-shadow: 10px 5px 5px grey;
     & img{
         width: 310px;
         margin: 20px;
@@ -38,6 +39,7 @@
 .modal-content {
     border: 3px solid black;
     max-width: 600px;
+    box-shadow: 15px 10px 10px black;
     &__head{
         background-color: #96b0c1;
         display: flex;
