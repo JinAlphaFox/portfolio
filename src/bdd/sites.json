@@ -1,5 +1,16 @@
 [
     {
+        "_id": 7,
+        "photo": "portfolioProject.jpg",
+        "alt": "image de mon site portfolio, Joshua Lavaud",
+        "titre": "Mon site portfolio, Joshua Lavaud",
+        "objectif": "Développer mon portfolio. C'était la première version, avant que je ne le refasse totalement.",
+        "probleme": "",
+        "skills": ["React.js", "HTML", "Sass"],
+        "adresse": "https://joshualavaud.netlify.app/",
+        "github": "https://github.com/JinAlphaFox/portfolio"
+    },
+    {
         "_id": 6,
         "photo": "grimoireProject.jpg",
         "alt": "image du site Mon Vieux Grimoire",
@@ -16,7 +27,7 @@
         "alt": "image du site Mon Vieux Grimoire",
         "titre": "Site immobilier \"Kasa\"",
         "objectif": "Développer le front-end du site avec React et React Router.",
-        "probleme": "Ma plus grosse problématique sur ce projet fût la compression des images. Les anciennes images ne voulaient pas se supprimer. Il fallait vider le cache du module pour réussir.",
+        "probleme": "",
         "skills": ["React.js", "React Router", "CSS", "Sass"],
         "adresse": 0,
         "github": "https://github.com/JinAlphaFox/kasa"
@@ -38,7 +49,7 @@
         "alt": "image du site de Sophie Bluel",
         "titre": "Site de Sophie Bluel, Architecte",
         "objectif": "Créer la page web dynamique du site en comuniquant avec un API.",
-        "probleme": "Ma plus grosse problématique sur ce projet fût la compression des images. Les anciennes images ne voulaient pas se supprimer. Il fallait vider le cache du module pour réussir.",
+        "probleme": "",
         "skills": ["Javascript", "Node.js"],
         "adresse": 0,
         "github": "https://github.com/JinAlphaFox/architecte"
@@ -59,7 +70,7 @@
         "photo": "journalKitsuneProject.jpg",
         "alt": "image du site Journal d'un Kitsune",
         "titre": "Site \"Journal d'un Kitsune\"",
-        "objectif": "Second projet personnel. Créer une bibliothèque dynamique pour les joueurs du JDR \"Les 5 anneaux\".",
+        "objectif": "Second projet personnel avant de débuter ma formation. Créer une bibliothèque dynamique pour les joueurs du JDR \"Les 5 anneaux\".",
         "probleme": "",
         "skills": ["HTML", "CSS", "JAVASCRIPT"],
         "adresse": "https://journaldunkitsune.netlify.app/",
@@ -70,7 +81,7 @@
         "photo": "kanaDoProject.jpg",
         "alt": "image du site KanaDo",
         "titre": "Site \"KanaDo\"",
-        "objectif": "Premier projet personnel. Créer un site pour réviser les caractères Japonais. Trouver un hébergeur gratuit.",
+        "objectif": "Premier projet personnel avant de débuter ma formation. Créer un site pour réviser les caractères Japonais. Trouver un hébergeur gratuit.",
         "probleme": "",
         "skills": ["HTML", "CSS", "JAVASCRIPT"],
         "adresse": "https://tytkanado.netlify.app/",

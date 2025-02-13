@@ -4,6 +4,9 @@
     @media print {
         flex-direction: column;
     }
+    @media (max-width: 1670px) {
+        display: none;
+    }
     &__monCv{
         width: 1506px;
         margin-right: 40px;
