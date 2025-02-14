@@ -1,8 +1,12 @@
 .projects{
-    margin-left: 40px;
+    margin: 0 40px 40px 40px;
     min-height: 770px;
     & h2{
         margin-left: 100px;
+        @media (max-width: 1670px) {           
+            margin-left: 0;
+            text-align: center;
+        }
     }
     &__all {
         display: flex;
@@ -10,9 +14,21 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 50px;
+        @media (max-width: 1670px) {    
+            flex-direction: column-reverse;
+            align-items: center;
+            flex-wrap: nowrap;
+            gap: 20px;
+        }
         &__card{
             width: 350px;
             height: 350px;
+            @media (max-width: 1670px) {       
+                max-width: 350px;
+                max-height: 350px;
+                width: 95vw;
+                height: 95vw;
+            }
         }
     }
 }

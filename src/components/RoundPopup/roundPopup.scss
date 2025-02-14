@@ -1,5 +1,9 @@
 .roundPopup{
-    width: 400px;
+    max-width: 400px;
+    @media (max-width: 1670px) {
+        max-width: 400px;
+        width: 98vw;
+    }
     & h3{
         display: flex;
         flex-direction: row;
