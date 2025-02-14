@@ -9,9 +9,10 @@ function Projet({ bdd }) {
       <div className="projet" onClick={() => setModalIsOpen(true)}>
         <img src={`/img/${bdd.photo}`} alt={bdd.alt} />
         <h3>{bdd.titre}</h3>
-        <div className="projet__icone">
+        <span>[+]</span>
+        {/*<div className="projet__icone">
           <i className="fa-solid fa-arrow-pointer"></i>
-        </div>
+        </div>*/}
       </div>
 
       <Modal

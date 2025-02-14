@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 25px;
+    //gap: 25px;
     box-shadow: 10px 10px 5px grey;
     @media (max-width: 1670px) {
         box-shadow: 5px 5px 3px grey;
@@ -24,6 +24,9 @@
     }
     & h3{
         text-align: center;
+    }
+    & span {
+        text-decoration: underline;
     }
     &__icone{
         width: 100%;
