@@ -17,14 +17,14 @@ function Header() {
       </div>
       <div className="header__fakeBar">
         <div className="header__fakeBar__chevrons">
-          <i class="fa-solid fa-chevron-left"></i>
-          <i class="fa-solid fa-chevron-right"></i>
+          <i class="fa-solid fa-chevron-left hidden"></i>
+          <i class="fa-solid fa-chevron-right hidden"></i>
         </div>
         <div className="header__fakeBar__searchZone">
           <i class="fa-solid fa-magnifying-glass"></i>
           <h1>Développeur Web FullStack</h1>
         </div>
-        <i class="fa-solid fa-rotate-right"></i>
+        <i class="fa-solid fa-rotate-right hidden"></i>
         <i class="fa-solid fa-bars"></i>
       </div>
     </div>

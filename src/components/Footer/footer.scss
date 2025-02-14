@@ -1,12 +1,20 @@
 .footer{
     box-shadow: 0 -5px 0 0 silver;
     @media (max-width: 1670px) {
-        display: none;
+        //display: none;
+        border-top: 3px solid silver;;
     }
     & h2{
         margin-top: 5px;
         padding-top: 10px;
         text-indent: 120px;
+        @media (max-width: 1670px) {
+            margin-top: 3px;
+            padding-top: 5px;
+            text-align: center;
+            text-indent: 0;
+            font-size: 1.3em;
+        }
     }
     &__information{
         margin-left: 60px;
@@ -18,10 +26,17 @@
             margin-left: 0;
             justify-content: space-around;
         }
+        @media (max-width: 1670px) {
+            flex-direction: column;
+            margin-left: 0;
+        }
         & span{
             font-weight: bold;
             @media print {
                 font-size: 24px;
+            }
+            @media (max-width: 1670px) {
+                font-size: 1em;
             }
         }
         & a{
@@ -29,6 +44,9 @@
             text-decoration: none;
             @media print {
                 display: none;
+            }
+            @media (max-width: 1670px) {
+                text-decoration: underline;
             }
         }
         & a:visited{
